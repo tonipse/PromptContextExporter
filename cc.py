@@ -22,7 +22,9 @@ from tkinter import ttk, filedialog, messagebox
 
 CODE_EXTENSIONS: set[str] = {
     ".py", ".js", ".ts", ".tsx", ".jsx", ".cs", ".cpp", ".c", ".h", ".hpp",
-    ".java", ".kt", ".swift", ".rb", ".php", ".go", ".rs",
+    ".java", ".kt", ".swift", ".rb", ".php", ".go", ".rs", ".mjs", ".cjs",
+    ".html", ".css", ".scss", ".less", ".json", ".yaml",
+    ".yml", ".xml", ".sh", ".bash", ".zsh"
 }
 EXPORT_FILENAME = "export.txt"
 ENCODING = "utf-8"
